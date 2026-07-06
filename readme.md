@@ -1,6 +1,6 @@
 # Kungsleden Companion
 
-https://raugas-local.github.io/Kungsleden/pilot-brief.html
+<https://raugas-local.github.io/Kungsleden/>
 
 An offline-first travel companion for hiking the Kungsleden trail (Kvikkjokk
 to Abisko, south to north). Built as a static site, deployable on GitHub
