@@ -1,0 +1,56 @@
+{
+  "crossing_id": "aktse_laitaure",
+  "lake": "Lajtavrre",
+  "lake_alt_names": [
+    "Laitaure",
+    "Lájtávrre"
+  ],
+  "connects": [
+    "STF Aktse cabin / Aktse (shore)",
+    "Stopover cabin Laitaure (shore)"
+  ],
+  "operator": "STF host in Aktse, or the Länta family (Anne-Sophie), alternating",
+  "how_it_works": "The Kungsleden crossing runs twice a day all summer, operated either by the STF host in Aktse or by the Länta family. No advance booking is required for this specific crossing, but if travelling from the north (Aktse side), it is good practice to notify the cabin host at Aktse the evening before or that morning. If travelling from the south (Laitaure side), there is a flag at the jetty on the south shore -- raise it to request pickup no later than 09:00 or 17:00 (times approximate/preliminary per the operator). Cash payment only, paid before boarding. Bad weather can delay or cancel crossings.",
+  "season": {
+    "note_from_stf": "STF-reported regular departures: Aktse to Laitaure 09:00 / 17:00; Laitaure to Aktse 09:15 / 17:15. Cancelled afternoon departure on 13 September (cabins close and hosts leave around lunchtime that day).",
+    "note_from_operator_site": "The Länta family's own site (aktsebo.se) confirms the Kungsleden crossing runs twice daily all season (roughly 09:00 and 17:00), consistent with the STF figures above."
+  },
+  "price": {
+    "currency": "SEK",
+    "stf_reported": {
+      "adult": 300,
+      "children_6_15": 150,
+      "children_0_5": 0
+    },
+    "operator_site_reported": {
+      "adult": 250,
+      "children_6_15": 100
+    },
+    "conflict_note": "The two sources disagree (300 vs 250 SEK adult). The operator's own page (aktsebo.se) explicitly flags its listed prices as still showing an old season's rates and not yet updated -- that page has clearly not been actively maintained in recent seasons. Treat the STF figure (300 SEK) as more likely current, but confirm by phone before relying on either number.",
+    "payment_note": "Cash only, no card payment mentioned."
+  },
+  "booking": "No pre-booking required for the twice-daily Kungsleden crossing itself; notify the Aktse cabin host ahead of time if convenient, or use the flag system from the Laitaure side.",
+  "contact": {
+    "website": "https://aktsebo.se/",
+    "phone": [
+      "+46 70 673 55 13",
+      "+46 70 222 82 50"
+    ],
+    "contact_person": "Anne-Sophie Länta",
+    "best_call_time": "Evenings between 19:00-21:00 for phone bookings; call around 07:00 for same-day cancellations.",
+    "note": "This family also runs separate paid boat services from Aktse to Nammasj/Sarek and Cykelstigen -- those are different routes/prices from the Kungsleden crossing and not relevant to this route unless detouring into Sarek."
+  },
+  "sources": [
+    {
+      "url": "https://aktsebo.se/",
+      "note": "Operator's own page. Content appears to date from around 2023 and states its own prices are outdated ('2022 prices, not yet updated'). Treat operational details (contact, general times, procedure) as likely still valid, but do not trust the listed price without confirming by phone.",
+      "data_retrieved": "2026-07-06"
+    },
+    {
+      "url": "https://www.swedishtouristassociation.com/guides/mountains/transport/boats/",
+      "source_last_updated": "2026-05-21",
+      "note": "More recently updated secondary source; used here as the more trustworthy price figure.",
+      "data_retrieved": "2026-07-06"
+    }
+  ]
+}

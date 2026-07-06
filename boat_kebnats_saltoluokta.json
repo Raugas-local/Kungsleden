@@ -1,0 +1,106 @@
+{
+  "crossing_id": "kebnats_saltoluokta",
+  "lake": "Langas",
+  "lake_alt_names": [
+    "Ahkajavrre",
+    "Akkajaure (surrounding larger lake system)"
+  ],
+  "connects": [
+    "STF Vakkotavare cabin (shore)",
+    "STF Saltoluokta Station (shore)"
+  ],
+  "important_structural_note": "This is not a direct crossing from Vakkotavare. The full route is: STF Vakkotavare -> bus operated by Road to Ritsem -> Kebnats pier -> boat M/S Langas -> STF Saltoluokta. Vakkotavare itself has no boat pier. See bus_vakkotavare_kebnats.json for the critical bus connection details and a known scheduling gap around early September 2026.",
+  "operator": "STF (Swedish Tourist Association) directly operates M/S Langas",
+  "how_it_works": "In summer you travel to Kebnats (by train+bus, car, or bus from Vakkotavare), then cross Lake Langas by boat M/S Langas. The boat crossing is not included in accommodation or bus prices and must be paid separately. Tickets can be bought online in advance or paid on board; a seat is guaranteed even without pre-booking, but pre-booking is recommended. The boat waits 15-30 minutes for a delayed bus depending on the scheduled departure -- let STF know if the delay is longer. The boat runs on schedule even on days when the bus does not run. Free parking is available about 100 metres from the Kebnats jetty.",
+  "journey_time_minutes": 15,
+  "season": {
+    "dates_2026": "18 June - 20 September 2026, daily",
+    "regular_timetable": {
+      "morning": [
+        {
+          "route": "Saltoluokta -> Kebnats",
+          "departure": "10:00",
+          "connection": "to Gällivare"
+        },
+        {
+          "route": "Kebnats -> Saltoluokta",
+          "departure": "10:25"
+        }
+      ],
+      "afternoon": [
+        {
+          "route": "Saltoluokta -> Kebnats",
+          "departure": "16:30",
+          "connection": "to Ritsem"
+        },
+        {
+          "route": "Kebnats -> Saltoluokta",
+          "departure": "16:55"
+        }
+      ]
+    },
+    "high_season_additional_departures": {
+      "dates": "18 July - 5 September 2026",
+      "morning": [
+        {
+          "route": "Saltoluokta -> Kebnats",
+          "departure": "10:40",
+          "connection": "to Ritsem"
+        },
+        {
+          "route": "Kebnats -> Saltoluokta",
+          "departure": "11:00"
+        }
+      ],
+      "afternoon": [
+        {
+          "route": "Saltoluokta -> Kebnats",
+          "departure": "15:25",
+          "connection": "to Gällivare"
+        },
+        {
+          "route": "Kebnats -> Saltoluokta",
+          "departure": "15:45"
+        }
+      ]
+    },
+    "off_schedule_transport_contact": {
+      "note": "STF operates strictly on the published timetable. For transport outside these times, contact:",
+      "christer_dynesius": "+46 70 241 66 35",
+      "tobbe_oberg": "+46 70 340 42 72"
+    }
+  },
+  "price": {
+    "currency": "SEK",
+    "year": 2026,
+    "adult_16_plus": {
+      "member": 175,
+      "non_member": 225
+    },
+    "child_6_15": {
+      "member": "free (with accompanying STF member adult)",
+      "non_member": 75
+    },
+    "child_0_5": {
+      "member": "free",
+      "non_member": "free"
+    }
+  },
+  "booking": "Book online in advance via the STF Saltoluokta activities/booking page, or pay directly on board.",
+  "contact": {
+    "website": "https://www.swedishtouristassociation.com/facilities/stf-saltoluokta-mountain-station/transport/",
+    "booking_url": "https://www.swedishtouristassociation.com/facilities/stf-saltoluokta-mountain-station/activities/",
+    "off_schedule_contacts": [
+      "Christer Dynesius +46 70 241 66 35",
+      "Tobbe Öberg +46 70 340 42 72"
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.swedishtouristassociation.com/facilities/stf-saltoluokta-mountain-station/transport/",
+      "note": "Official STF Saltoluokta transport page -- STF directly operates M/S Langas, so this is a primary source, not third-party.",
+      "source_last_modified": "2026-05-29",
+      "data_retrieved": "2026-07-06"
+    }
+  ]
+}

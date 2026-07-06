@@ -1,0 +1,73 @@
+{
+  "crossing_id": "teusajaure_vakkotavare",
+  "lake": "Dievssajavri",
+  "lake_alt_names": [
+    "Dievssajávri"
+  ],
+  "connects": [
+    "Stopover cabin Dievssajavri",
+    "STF Teusajaure cabin"
+  ],
+  "hiking_distance_km": 0.9,
+  "operator": "Teusajaure cabin host (STF) or County Administrative Board rowboats",
+  "how_it_works": "About 1 km of the trail is covered by boat. Rowboats from the County Administrative Board are available, or you can get a ride from the STF cabin host at Teusajaure. To cross from the far shore, raise the flag or container so the cabin host sees you are waiting; the times below then apply with a 15 minute delay.",
+  "season": {
+    "periods": [
+      {
+        "dates": "June 18 - July 17",
+        "departures": [
+          "09:00",
+          "15:00",
+          "17:00"
+        ]
+      },
+      {
+        "dates": "July 18 - August 30",
+        "departures": [
+          "09:00",
+          "15:00",
+          "18:00"
+        ]
+      },
+      {
+        "dates": "August 31 - September 13",
+        "departures": [
+          "09:00",
+          "17:00",
+          "18:00"
+        ]
+      }
+    ],
+    "note": "On September 13 the mountain cabins close and hosts usually leave around lunchtime, so afternoon departures are cancelled that day and the morning departure is the last crossing.",
+    "weather_note": "Crossings are cancelled in severe weather conditions or unsuitable water levels."
+  },
+  "price": {
+    "currency": "SEK",
+    "adult_26_plus": {
+      "member": 150,
+      "non_member": 200
+    },
+    "youth_16_25": {
+      "member": 150,
+      "non_member": 200
+    },
+    "children_6_15": {
+      "member": 0,
+      "non_member": 50
+    },
+    "children_0_5": {
+      "member": 0,
+      "non_member": 0
+    }
+  },
+  "booking": "No advance booking mentioned as required; arranged directly with the cabin host or via the flag/container signal system from the far shore.",
+  "contact": null,
+  "sources": [
+    {
+      "url": "https://www.swedishtouristassociation.com/guides/mountains/transport/boats/",
+      "note": "This crossing has no separate branded operator site (unlike M/S Langas, Sitojaure, or Aktse) -- it is run directly by the STF cabin host at Teusajaure, or via County Administrative Board rowboats. This STF mountain-guide page is therefore already the official primary source for this crossing.",
+      "source_last_updated": "2026-05-21",
+      "data_retrieved": "2026-07-06"
+    }
+  ]
+}
