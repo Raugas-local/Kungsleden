@@ -6,6 +6,7 @@
   "note_on_direction": "Waypoints are ordered south to north (Kvikkjokk to Abisko), matching the actual hike direction. Ascent_m and descent_m are taken directly from the source table and already reflect this south to north direction, as confirmed by the author. Boat-crossing distances are noted per segment but excluded from km_from_start, matching the original trail-km markers, which stay the same across a lake crossing.",
   "waypoints": [
     {
+      "kind": "waypoint",
       "name": "STF Kvikkjokk",
       "km_from_start": 0,
       "type": "hut",
@@ -16,6 +17,7 @@
       "alt_names": []
     },
     {
+      "kind": "waypoint",
       "name": "STF Pårte cabin",
       "km_from_start": 17,
       "type": "hut",
@@ -28,6 +30,7 @@
       ]
     },
     {
+      "kind": "waypoint",
       "name": "Stopover cabin Laitaure (shore)",
       "km_from_start": 40,
       "type": "hut",
@@ -38,6 +41,7 @@
       "alt_names": []
     },
     {
+      "kind": "waypoint",
       "name": "Aktse (shore)",
       "km_from_start": 40,
       "type": "lake_crossing_point",
@@ -48,6 +52,7 @@
       "alt_names": []
     },
     {
+      "kind": "waypoint",
       "name": "STF Aktse cabin",
       "km_from_start": 41,
       "type": "hut",
@@ -58,6 +63,7 @@
       "alt_names": []
     },
     {
+      "kind": "waypoint",
       "name": "Skirffe",
       "km_from_start": 48.5,
       "type": "hut",
@@ -71,6 +77,7 @@
       ]
     },
     {
+      "kind": "waypoint",
       "name": "Stopover cabin Svijnne (shore)",
       "km_from_start": 62.1,
       "type": "hut",
@@ -81,6 +88,7 @@
       "alt_names": []
     },
     {
+      "kind": "waypoint",
       "name": "STF Sitojaure cabin - Vaggevárasj (shore)",
       "km_from_start": 62.1,
       "type": "lake_crossing_point",
@@ -93,6 +101,7 @@
       ]
     },
     {
+      "kind": "waypoint",
       "name": "STF Saltoluokta Station (shore)",
       "km_from_start": 81.4,
       "type": "hut",
@@ -106,6 +115,7 @@
       ]
     },
     {
+      "kind": "waypoint",
       "name": "STF Vakkotavare cabin (shore)",
       "km_from_start": 81.4,
       "type": "lake_crossing_point",
@@ -117,6 +127,7 @@
       "critical_alert_id": "vakkotavare_kebnats_bus_gap_sep2026"
     },
     {
+      "kind": "waypoint",
       "name": "Stopover cabin Dievssajávri",
       "km_from_start": 96.4,
       "type": "hut",
@@ -129,6 +140,7 @@
       ]
     },
     {
+      "kind": "waypoint",
       "name": "STF Teusajaure cabin",
       "km_from_start": 96.4,
       "type": "lake_crossing_point",
@@ -139,6 +151,7 @@
       "alt_names": []
     },
     {
+      "kind": "waypoint",
       "name": "STF Kaitumjaure cabin",
       "km_from_start": 105.4,
       "type": "hut",
@@ -149,6 +162,7 @@
       "alt_names": []
     },
     {
+      "kind": "waypoint",
       "name": "STF Singi cabin",
       "km_from_start": 118.4,
       "type": "hut",
@@ -159,6 +173,7 @@
       "alt_names": []
     },
     {
+      "kind": "waypoint",
       "name": "STF Sälka cabin",
       "km_from_start": 130.4,
       "type": "hut",
@@ -172,6 +187,7 @@
       ]
     },
     {
+      "kind": "waypoint",
       "name": "STF Alesjaure cabin",
       "km_from_start": 155.4,
       "type": "hut",
@@ -182,6 +198,7 @@
       "alt_names": []
     },
     {
+      "kind": "waypoint",
       "name": "STF Abiskojaure",
       "km_from_start": 176.4,
       "type": "hut",
@@ -192,6 +209,7 @@
       "alt_names": []
     },
     {
+      "kind": "waypoint",
       "name": "STF Abisko Turiststation",
       "km_from_start": 192.4,
       "type": "hut",
