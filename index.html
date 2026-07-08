@@ -379,6 +379,20 @@
     ]
   },
   {
+    "id": "kebnats",
+    "kind": "waypoint",
+    "name": "Kebnats",
+    "km_from_start": 81.4,
+    "type": "lake_crossing_point",
+    "shop": {
+      "size": "none",
+      "electricity": false
+    },
+    "alt_names": [
+      "Kebnats pier"
+    ]
+  },
+  {
     "id": "stf_vakkotavare_cabin_shore",
     "kind": "waypoint",
     "name": "STF Vakkotavare cabin (shore)",
@@ -1069,30 +1083,49 @@
     "crossing_ids": []
   },
   {
-    "id": "stf_saltoluokta_station_shore__stf_vakkotavare_cabin_shore",
+    "id": "stf_saltoluokta_station_shore__kebnats",
     "order": 9,
     "type": "boat",
     "from": "STF Saltoluokta Station (shore)",
     "from_id": "stf_saltoluokta_station_shore",
-    "to": "STF Vakkotavare cabin (shore)",
-    "to_id": "stf_vakkotavare_cabin_shore",
+    "to": "Kebnats",
+    "to_id": "kebnats",
     "distance_km": null,
     "ascent_m": 0,
     "descent_m": 0,
-    "notes": "STF Vakkotavare -> bus (operated by Road to Ritsem, not the old Bus 93 mentioned in the original source table -- that line no longer serves this route) -> Kebnats (continues to the Gällivare exit point); walking alternative 30 km (+190m/-100m); boat to Kebnats 200 SEK (waits for the bus when travelling from the north). Note: the boat itself is named M/S Langas and timetables/tickets use the name Langas, not the Sami lake name Ahkajavrre used in the source table. See bus_vakkotavare_kebnats.json for the current 2026 bus timetable and a known scheduling gap around 6 September 2026.",
-    "camping_good": "Forest right after the start, or all the way down before Vakkotavare",
+    "notes": "M/S Langas boat crossing of Lake Langas (Sami name Áhkajávrre), operated directly by STF, about 15 minutes. See the kebnats_saltoluokta crossing for the timetable, price, and booking.",
+    "camping_good": "Forest right after the start",
     "camping_risky": "",
     "lake": "Langas",
     "shelters": [],
+    "crossing_ids": [
+      "kebnats_saltoluokta"
+    ]
+  },
+  {
+    "id": "kebnats__stf_vakkotavare_cabin_shore",
+    "order": 10,
+    "type": "bus",
+    "from": "Kebnats",
+    "from_id": "kebnats",
+    "to": "STF Vakkotavare cabin (shore)",
+    "to_id": "stf_vakkotavare_cabin_shore",
+    "distance_km": 0,
+    "ascent_m": 0,
+    "descent_m": 0,
+    "notes": "Primary: bus (operated by Road to Ritsem, not the old Bus 93 mentioned in the original source table -- that line no longer serves this route) or hitchhiking/taxi from Kebnats pier to STF Vakkotavare cabin, roughly 1 hour by bus. See the vakkotavare_kebnats_bus crossing for the current 2026 timetable and a known scheduling gap around 6 September 2026. Fallback if no bus and no hitch: walk approx. 30 km along the road, +182 m / -109 m ascent/descent (figure supplied by the route author, not yet cross-checked against a source -- re-verify before relying on it).",
+    "camping_good": "All the way down before Vakkotavare",
+    "camping_risky": "",
+    "lake": null,
+    "shelters": [],
     "critical_alert_id": "vakkotavare_kebnats_bus_gap_sep2026",
     "crossing_ids": [
-      "kebnats_saltoluokta",
       "vakkotavare_kebnats_bus"
     ]
   },
   {
     "id": "stf_vakkotavare_cabin_shore__stopover_cabin_dievssajavri",
-    "order": 10,
+    "order": 11,
     "type": "hike",
     "from": "STF Vakkotavare cabin (shore)",
     "from_id": "stf_vakkotavare_cabin_shore",
@@ -1110,7 +1143,7 @@
   },
   {
     "id": "stopover_cabin_dievssajavri__stf_teusajaure_cabin",
-    "order": 11,
+    "order": 12,
     "type": "boat",
     "from": "Stopover cabin Dievssajávri",
     "from_id": "stopover_cabin_dievssajavri",
@@ -1130,7 +1163,7 @@
   },
   {
     "id": "stf_teusajaure_cabin__stf_kaitumjaure_cabin",
-    "order": 12,
+    "order": 13,
     "type": "hike",
     "from": "STF Teusajaure cabin",
     "from_id": "stf_teusajaure_cabin",
@@ -1148,7 +1181,7 @@
   },
   {
     "id": "stf_kaitumjaure_cabin__stf_singi_cabin",
-    "order": 13,
+    "order": 14,
     "type": "hike",
     "from": "STF Kaitumjaure cabin",
     "from_id": "stf_kaitumjaure_cabin",
@@ -1166,7 +1199,7 @@
   },
   {
     "id": "stf_singi_cabin__stf_salka_cabin",
-    "order": 14,
+    "order": 15,
     "type": "hike",
     "from": "STF Singi cabin",
     "from_id": "stf_singi_cabin",
@@ -1192,7 +1225,7 @@
   },
   {
     "id": "stf_salka_cabin__stf_alesjaure_cabin",
-    "order": 15,
+    "order": 16,
     "type": "hike",
     "from": "STF Sälka cabin",
     "from_id": "stf_salka_cabin",
@@ -1218,7 +1251,7 @@
   },
   {
     "id": "stf_alesjaure_cabin__stf_abiskojaure",
-    "order": 16,
+    "order": 17,
     "type": "hike",
     "from": "STF Alesjaure cabin",
     "from_id": "stf_alesjaure_cabin",
@@ -1244,7 +1277,7 @@
   },
   {
     "id": "stf_abiskojaure__stf_abisko_turiststation",
-    "order": 17,
+    "order": 18,
     "type": "hike",
     "from": "STF Abiskojaure",
     "from_id": "stf_abiskojaure",
