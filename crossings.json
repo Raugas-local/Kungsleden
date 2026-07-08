@@ -23,7 +23,7 @@
     "label": "Kebnats ↔ Saltoluokta",
     "subtitle": "boat · M/S Langas",
     "segment_ids": [
-      "stf_saltoluokta_station_shore__stf_vakkotavare_cabin_shore"
+      "stf_saltoluokta_station_shore__kebnats"
     ]
   },
   {
@@ -32,7 +32,7 @@
     "label": "Vakkotavare ↔ Kebnats",
     "subtitle": "bus · Road to Ritsem",
     "segment_ids": [
-      "stf_saltoluokta_station_shore__stf_vakkotavare_cabin_shore"
+      "kebnats__stf_vakkotavare_cabin_shore"
     ]
   },
   {
