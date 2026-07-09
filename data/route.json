@@ -332,7 +332,8 @@
       "camping_good": "Forest for most of the stretch, camping is fine almost anywhere",
       "camping_risky": "Practically no risk spots",
       "shelters": [],
-      "latrine": true
+      "latrine": true,
+      "map_url": "https://mapy.com/s/capojobofe"
     },
     {
       "id": "stf_parte_cabin__stopover_cabin_laitaure_shore",
@@ -356,7 +357,8 @@
           "elevation_m": null,
           "notes": "Unstaffed basic shelter, no shop. Some itineraries split this stage into two days using Jågge as the overnight point."
         }
-      ]
+      ],
+      "map_url": "https://mapy.com/s/jelafomocu"
     },
     {
       "id": "stopover_cabin_laitaure_shore__aktse_shore",
@@ -389,7 +391,8 @@
       "notes": "",
       "camping_good": "",
       "camping_risky": "",
-      "shelters": []
+      "shelters": [],
+      "map_url": "https://mapy.com/s/lopegedese"
     },
     {
       "id": "stf_aktse_cabin__skirffe",
@@ -405,7 +408,8 @@
       "notes": "",
       "camping_good": "",
       "camping_risky": "",
-      "shelters": []
+      "shelters": [],
+      "map_url": "https://mapy.com/s/hukonehese"
     },
     {
       "id": "skirffe__stopover_cabin_svijnne_shore",
@@ -421,7 +425,8 @@
       "notes": "11.5 km if skipping Skierfe and going direct; STF Aktse mountain cabin",
       "camping_good": "",
       "camping_risky": "",
-      "shelters": []
+      "shelters": [],
+      "map_url": "https://mapy.com/s/mazoluhuvu"
     },
     {
       "id": "stopover_cabin_svijnne_shore__stf_sitojaure_cabin_vaggevarasj_shore",
@@ -466,7 +471,8 @@
           "elevation_m": null,
           "notes": "Unstaffed basic shelter, no shop."
         }
-      ]
+      ],
+      "map_url": "https://mapy.com/s/pucemudura"
     },
     {
       "id": "stf_saltoluokta_station_shore__kebnats",
@@ -504,7 +510,8 @@
       "camping_good": "All the way down before Vakkotavare",
       "camping_risky": "",
       "shelters": [],
-      "critical_alert_id": "vakkotavare_kebnats_bus_gap_sep2026"
+      "critical_alert_id": "vakkotavare_kebnats_bus_gap_sep2026",
+      "map_url": "https://mapy.com/s/ramuruvaco"
     },
     {
       "id": "stf_vakkotavare_cabin_shore__stopover_cabin_dievssajavri",
@@ -670,5 +677,6 @@
   "schema_note_alt_names": "alt_names lists spelling variants that may appear on physical trail signage, maps, or other apps: an ASCII fold (no Swedish a-ring/a-umlaut/o-umlaut or Sami a-acute) plus any specific alternate names found during research. This list is best-effort from remote research, not confirmed on the ground. Treat it as a search aid for matching a signpost to the right waypoint, not as a verified official naming registry.",
   "schema_note_lake_names": "lake on a boat segment is the name most likely to appear on the actual boat service, timetable, or ticket (what you would ask for or search when booking). lake_alt_names lists other names for the same body of water, such as the Sami name used in the original source table, which may still appear on maps or signposts. Confirmed by cross-checking against the Swedish Tourist Association boat-service page during research.",
   "schema_note_alerts": "critical_alert_id, where present on a waypoint or segment, references an entry in alerts.json by id. The app should look up that entry and display it prominently rather than treating it as ordinary reference text.",
+  "schema_note_map_url": "map_url (string, optional) is a shareable mapy.com link for that segment's trail, viewable offline once opened once with a network connection. Currently only recorded for legs 1, 2, 4, 5, 6, 8, and 10 -- absent elsewhere, not yet gathered rather than confirmed missing.",
   "schema_note_ids": "Every waypoint has a stable `id` (slug derived from its name at authoring time, never changes even if `name` is edited later). Every segment has a stable `id` (`<from_id>__<to_id>`) plus `from_id`/`to_id` referencing the waypoints it connects. `from`/`to` remain plain display text -- edit them freely, they are what the app shows; they are not used for lookups, so editing them cannot break waypoint/crossing linkage. crossings.json and alerts.json reference waypoints/segments by id, not by name or order, so renaming a waypoint's `name` or renumbering segments never breaks those links."
 }
