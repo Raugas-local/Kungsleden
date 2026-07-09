@@ -283,9 +283,11 @@
   .detail-content p { font-size: 0.9rem; margin: 0.3rem 0; }
   .link-row { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-top: 0.3rem; }
   .link-btn {
+    display: inline-block;
     border: 1px solid var(--border);
     background: var(--card-bg);
     color: inherit;
+    text-decoration: none;
     border-radius: 8px;
     padding: 0.3rem 0.7rem;
     font-size: 0.82rem;
@@ -1169,6 +1171,7 @@
     "camping_risky": "Practically no risk spots",
     "shelters": [],
     "latrine": true,
+    "map_url": "https://mapy.com/s/capojobofe",
     "crossing_ids": []
   },
   {
@@ -1194,6 +1197,7 @@
         "notes": "Unstaffed basic shelter, no shop. Some itineraries split this stage into two days using Jågge as the overnight point."
       }
     ],
+    "map_url": "https://mapy.com/s/jelafomocu",
     "crossing_ids": []
   },
   {
@@ -1231,6 +1235,7 @@
     "camping_good": "",
     "camping_risky": "",
     "shelters": [],
+    "map_url": "https://mapy.com/s/lopegedese",
     "crossing_ids": []
   },
   {
@@ -1248,6 +1253,7 @@
     "camping_good": "",
     "camping_risky": "",
     "shelters": [],
+    "map_url": "https://mapy.com/s/hukonehese",
     "crossing_ids": []
   },
   {
@@ -1265,6 +1271,7 @@
     "camping_good": "",
     "camping_risky": "",
     "shelters": [],
+    "map_url": "https://mapy.com/s/mazoluhuvu",
     "crossing_ids": []
   },
   {
@@ -1314,6 +1321,7 @@
         "notes": "Unstaffed basic shelter, no shop."
       }
     ],
+    "map_url": "https://mapy.com/s/pucemudura",
     "crossing_ids": []
   },
   {
@@ -1356,6 +1364,7 @@
     "camping_risky": "",
     "shelters": [],
     "critical_alert_id": "vakkotavare_kebnats_bus_gap_sep2026",
+    "map_url": "https://mapy.com/s/ramuruvaco",
     "crossing_ids": [
       "vakkotavare_kebnats_bus"
     ]
@@ -1761,6 +1770,7 @@
         ${leg.shelters.length ? badge("shelter") : ""}
         ${leg.latrine ? badge("latrine") : ""}
       </div>
+      ${leg.map_url ? `<div class="link-row"><a class="link-btn" href="${escapeHtml(leg.map_url)}" target="_blank" rel="noopener">🗺️ Open offline map (mapy.com) →</a></div>` : ""}
       <h3>Trail kilometrage</h3><p>km ${fromKm} → ${toKm} (Δ ${delta} km)${kmNote}</p>
       <h3>Notes</h3><p>${escapeHtml(leg.notes)}</p>
       ${campingHtml}
@@ -1807,6 +1817,7 @@
           ${leg.lake ? badge("lake: " + leg.lake) : ""}
           ${leg.shelters.length ? badge("shelter") : ""}
           ${leg.latrine ? badge("latrine") : ""}
+          ${leg.map_url ? badge("🗺️ map") : ""}
         </div>
       </button>
     `;
