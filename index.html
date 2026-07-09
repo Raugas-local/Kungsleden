@@ -74,8 +74,10 @@
   [data-theme="garmin"] .banner {
     border-radius: 0 !important;
   }
-  [data-theme="garmin"] .card { border-left: 3px solid var(--boat); }
-  [data-theme="garmin"] .card[data-leg] { border-left-color: var(--hike); }
+  [data-theme="garmin"] .card { border-left: 3px solid var(--kind); }
+  [data-theme="garmin"] .card[data-leg-type="hike"] { border-left-color: var(--hike); }
+  [data-theme="garmin"] .card[data-leg-type="boat"],
+  [data-theme="garmin"] .card[data-leg-type="bus"] { border-left-color: var(--boat); }
   [data-theme="garmin"] h1,
   [data-theme="garmin"] h2.section-title,
   [data-theme="garmin"] .tabbar button {
@@ -1748,7 +1750,7 @@
   function legCard(leg) {
     const { fromKm, toKm } = kmRange(leg);
     return `
-      <button class="card" data-leg="${leg.order}">
+      <button class="card" data-leg="${leg.order}" data-leg-type="${leg.type}">
         <div class="card-head">
           <span class="card-title">Leg #${leg.order}: ${escapeHtml(leg.from)} → ${escapeHtml(leg.to)}</span>
           <span class="card-sub">km ${fromKm} → ${toKm}</span>
